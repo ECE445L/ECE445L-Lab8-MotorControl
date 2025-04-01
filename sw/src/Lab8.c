@@ -1,9 +1,7 @@
 // Lab8.c
-// Runs on RSLK2 with TM4C123 (not LF120)
+// Runs on RSLK2 with TM4C123 (not LM4F120)
 // 
-// Daniel and Jonathan Valvano
-// Mark McDermott
-// Sept 1, 2024
+// Jan 12, 2025
 // Bump switches
 //   TM4C MSPM0
 //   PA5  PA27    Left, Bump 0,
@@ -82,8 +80,8 @@
 #include "../inc/IRDistance.h"
 #include "../inc/Motor.h"
 #include "../inc/Timer2A.h"
-#include "MotorControl.h"
-#include "Tachometer.h"
+#include "../inc/MotorControl.h"
+#include "../inc/Tachometer.h"
 #include "CLI.h"
 
 

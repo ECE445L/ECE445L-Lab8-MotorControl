@@ -433,8 +433,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\MotorControl.c</PathWithFileName>
-      <FilenameWithoutPath>MotorControl.c</FilenameWithoutPath>
+      <PathWithFileName>.\CLI.c</PathWithFileName>
+      <FilenameWithoutPath>CLI.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -445,8 +445,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\CLI.c</PathWithFileName>
-      <FilenameWithoutPath>CLI.c</FilenameWithoutPath>
+      <PathWithFileName>..\inc\UART0int.c</PathWithFileName>
+      <FilenameWithoutPath>UART0int.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -457,8 +457,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Tachometer.c</PathWithFileName>
-      <FilenameWithoutPath>Tachometer.c</FilenameWithoutPath>
+      <PathWithFileName>..\inc\MotorControl.c</PathWithFileName>
+      <FilenameWithoutPath>MotorControl.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -469,8 +469,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\inc\UART0int.c</PathWithFileName>
-      <FilenameWithoutPath>UART0int.c</FilenameWithoutPath>
+      <PathWithFileName>..\inc\Tachometer.c</PathWithFileName>
+      <FilenameWithoutPath>Tachometer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

@@ -450,24 +450,24 @@
               <FilePath>..\inc\IRDistance.c</FilePath>
             </File>
             <File>
-              <FileName>MotorControl.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\MotorControl.c</FilePath>
-            </File>
-            <File>
               <FileName>CLI.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\CLI.c</FilePath>
             </File>
             <File>
-              <FileName>Tachometer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Tachometer.c</FilePath>
-            </File>
-            <File>
               <FileName>UART0int.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\inc\UART0int.c</FilePath>
+            </File>
+            <File>
+              <FileName>MotorControl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\inc\MotorControl.c</FilePath>
+            </File>
+            <File>
+              <FileName>Tachometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\inc\Tachometer.c</FilePath>
             </File>
           </Files>
         </Group>

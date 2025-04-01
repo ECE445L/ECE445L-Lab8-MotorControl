@@ -7,7 +7,7 @@
 // Author:      Daniel Valvano
 // Date:        May 23, 2014
 // Modified by: Mark McDermott, Jonathan Valvano
-// Date:        July 1, 2024
+// Date:        Jan 12, 2025
 //
 //-------------------------------------------------
 //
@@ -21,8 +21,8 @@
 
 #include "../inc/UART0int.h"
 #include "../inc/tm4c123gh6pm.h"
-#include "MotorControl.h"
-#include "Tachometer.h"
+#include "../inc/MotorControl.h"
+#include "../inc/Tachometer.h"
 #include "CLI.h"
     // write this
    

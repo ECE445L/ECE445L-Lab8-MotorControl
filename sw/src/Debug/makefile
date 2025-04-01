@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs1280/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS
+CG_TOOL_ROOT := C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -20,10 +20,8 @@ ORDERED_OBJS += \
 "./Lab8.obj" \
 "./LaunchPad.obj" \
 "./Motor.obj" \
-"./MotorControl.obj" \
 "./PLL.obj" \
 "./SSD1306.obj" \
-"./Tachometer.obj" \
 "./Timer2A.obj" \
 "./UART0int.obj" \
 "./tm4c123gh6pm_startup_ccs.obj" \
@@ -150,15 +148,15 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 Lab8.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"C:/ti/ccs1280/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab8.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs1280/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1280/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab8_linkInfo.xml" --rom_model -o "Lab8.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab8.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab8_linkInfo.xml" --rom_model -o "Lab8.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "ADCSWTrigger.obj" "Bump.obj" "CLI.obj" "CortexM.obj" "I2C1.obj" "IRDistance.obj" "InputCapture.obj" "Lab8.obj" "LaunchPad.obj" "Motor.obj" "MotorControl.obj" "PLL.obj" "SSD1306.obj" "Tachometer.obj" "Timer2A.obj" "UART0int.obj" "tm4c123gh6pm_startup_ccs.obj" 
-	-$(RM) "ADCSWTrigger.d" "Bump.d" "CLI.d" "CortexM.d" "I2C1.d" "IRDistance.d" "InputCapture.d" "Lab8.d" "LaunchPad.d" "Motor.d" "MotorControl.d" "PLL.d" "SSD1306.d" "Tachometer.d" "Timer2A.d" "UART0int.d" "tm4c123gh6pm_startup_ccs.d" 
+	-$(RM) "ADCSWTrigger.obj" "Bump.obj" "CLI.obj" "CortexM.obj" "I2C1.obj" "IRDistance.obj" "InputCapture.obj" "Lab8.obj" "LaunchPad.obj" "Motor.obj" "PLL.obj" "SSD1306.obj" "Timer2A.obj" "UART0int.obj" "tm4c123gh6pm_startup_ccs.obj" 
+	-$(RM) "ADCSWTrigger.d" "Bump.d" "CLI.d" "CortexM.d" "I2C1.d" "IRDistance.d" "InputCapture.d" "Lab8.d" "LaunchPad.d" "Motor.d" "PLL.d" "SSD1306.d" "Timer2A.d" "UART0int.d" "tm4c123gh6pm_startup_ccs.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
