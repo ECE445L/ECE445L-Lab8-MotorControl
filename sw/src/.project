@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Lab8</name>
+	<name>ECE445L_Lab8</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -26,9 +26,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>ADCSWTrigger.c</name>
+			<name>ADC.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/ADCSWTrigger.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/ADC.c</locationURI>
 		</link>
 		<link>
 			<name>Bump.c</name>
@@ -36,19 +36,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/inc/Bump.c</locationURI>
 		</link>
 		<link>
-			<name>CortexM.c</name>
+			<name>CLI.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/CortexM.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/CLI.c</locationURI>
 		</link>
 		<link>
-			<name>I2C1.c</name>
+			<name>Clock.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/I2C1.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/Clock.c</locationURI>
 		</link>
 		<link>
-			<name>IRDistance.c</name>
+			<name>I2C.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/IRDistance.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/I2C.c</locationURI>
 		</link>
 		<link>
 			<name>InputCapture.c</name>
@@ -66,9 +66,14 @@
 			<locationURI>PARENT-1-PROJECT_LOC/inc/Motor.c</locationURI>
 		</link>
 		<link>
-			<name>PLL.c</name>
+			<name>MotorControl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/PLL.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/MotorControl.c</locationURI>
+		</link>
+		<link>
+			<name>PWM1.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/PWM1.c</locationURI>
 		</link>
 		<link>
 			<name>SSD1306.c</name>
@@ -76,14 +81,34 @@
 			<locationURI>PARENT-1-PROJECT_LOC/inc/SSD1306.c</locationURI>
 		</link>
 		<link>
-			<name>Timer2A.c</name>
+		<name>Median.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/Timer2A.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/Median.c</locationURI>
 		</link>
 		<link>
-			<name>UART0int.c</name>
+			<name>Tachometer.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/inc/UART0int.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/Tachometer.c</locationURI>
+		</link>
+		<link>
+			<name>Timer.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/Timer.c</locationURI>
+		</link>
+		<link>
+			<name>UART.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/UART.c</locationURI>
+		</link>
+		<link>
+			<name>FIFO.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/FIFO.c</locationURI>
+		</link>
+		<link>
+			<name>UARTints.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/inc/UARTints.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
